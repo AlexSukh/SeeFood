@@ -13,6 +13,7 @@
 		FA212895255D945A008D3AB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA212893255D945A008D3AB4 /* Main.storyboard */; };
 		FA212897255D945D008D3AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA212896255D945D008D3AB4 /* Assets.xcassets */; };
 		FA21289A255D945D008D3AB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA212898255D945D008D3AB4 /* LaunchScreen.storyboard */; };
+		FA2128A3255D9C7E008D3AB4 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FA2128A2255D9C7E008D3AB4 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FA212896255D945D008D3AB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA212899255D945D008D3AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA21289B255D945D008D3AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2128A2255D9C7E008D3AB4 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		FA21288C255D945A008D3AB4 /* SeeFood */ = {
 			isa = PBXGroup;
 			children = (
+				FA2128A2255D9C7E008D3AB4 /* Inceptionv3.mlmodel */,
 				FA21288D255D945A008D3AB4 /* AppDelegate.swift */,
 				FA21288F255D945A008D3AB4 /* SceneDelegate.swift */,
 				FA212891255D945A008D3AB4 /* ViewController.swift */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA212892255D945A008D3AB4 /* ViewController.swift in Sources */,
+				FA2128A3255D9C7E008D3AB4 /* Inceptionv3.mlmodel in Sources */,
 				FA21288E255D945A008D3AB4 /* AppDelegate.swift in Sources */,
 				FA212890255D945A008D3AB4 /* SceneDelegate.swift in Sources */,
 			);
@@ -293,7 +297,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = aleksandre.dev.SeeFood;
+				PRODUCT_BUNDLE_IDENTIFIER = "aleksandre.dev.I-Am-Rich";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +316,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = aleksandre.dev.SeeFood;
+				PRODUCT_BUNDLE_IDENTIFIER = "aleksandre.dev.I-Am-Rich";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
